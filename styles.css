@@ -1,0 +1,52 @@
+
+#first_break {
+    background-image: url('img/img1.png');
+    height: 550px;    
+    padding-top: 9rem;
+    margin-top: 2rem;
+}
+
+#first_banner{
+    
+    padding:1.5rem!important;
+    opacity: .8;
+    background-color: white;
+}
+
+#home_button{
+    
+    padding-left: .5rem;
+}
+
+#second_break{
+    
+    padding: 2rem 1rem 1rem 1rem;
+    background-color: lightblue;
+    
+}
+
+.greyborder{
+    
+        border: 1px solid gray;
+
+}
+
+#third_break{
+    
+    background-image: url(img/img2.png);
+    padding: 1rem 1rem 8rem 1rem;
+    margin-bottom: 10rem;
+
+    
+}
+
+#thirdhr{
+border: 1px solid white;
+
+}
+
+.smaller{
+margin-top: 2rem;
+max-width: 33%;
+
+}
