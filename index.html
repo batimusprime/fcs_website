@@ -1,190 +1,176 @@
 <!doctype HTML>
+
 <html lang="en">
-    <head>
-        
-        <title> Full Circle Support, Inc. </title>
-        
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
-        <!-- TODO: Move to end of body element -->
-        <!-- Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
-        <!-- Enable zooming and dynamic content for mobile -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        
-        <!-- Custom CSS -->
-        <link href="styles.css" type="text/css" rel="stylesheet">
+
+<head>
+    <title> Full Circle Support</title>
     
-    </head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- TODO: Move to end of body element -->
+
+<!-- JQuery JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Enable zooming and dynamic content for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Custom CSS -->
+    <link href="styles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Begin navbar -->
+    <div id="bar" class="primary">
+        
+        <nav class="navbar navbar-expand-lg navbar-dark">
     
-    <body>
-        
-        <!-- Begin navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
+        <!-- Nav image and title text -->
         <a class="navbar-brand" href="#">
-             
-            <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Full Circle Support Logo">
-            <span id="home_button">Full Circle Support</span>
-            
+    
+            <!-- Small logo -->
+            <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Full Circle Support Inc Logo">
+            <span id="title_text">Full Circle Support</span>
+    
         </a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        
-            <span class="navbar-toggler-icon"></span>
-        
+
+        <!-- Mobile collapse / toggle hamburger -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
-    
-        <div class="collapse navbar-collapse">
-        
-        <ul class="navbar-nav">
-        
-            <li class="nav-item active">
-            
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            
-            </li>
-          
-            <li class="nav-item">
-                
-                <a class="nav-link" href="#">Services</a>
-            
-            </li>
-            
-            
-            <li class="nav-item">
-        
-                <a class="nav-link" href="#">About</a>
-            
-            </li>
-            
-            <li class="nav-item">
-            
-                <a class="nav-link" href="#">Contact</a>
-            
-            </li>
-      
-        
-            
-            <li class="nav-item">
-        
-                <a class="nav-link" href="#">Providers</a>
-            
-            </li>
-        
-        </ul>
-        
-        </div>
-            
-        </nav>
-        
-    <!-- End Navbar -->
-        
-    <!-- Begin jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-    
-        <div class="container">
-        
-            <h1 class="display-4">Full Circle Support</h1>
-            
-            <p class="lead">Welcome to Full Circle Support</p>
-        
-        </div>
-    
-    </div>
-    <div class="container">
-    <!-- Begin modal -->
-    <div class="alert alert-info align-self-center mx-auto text-center" role="alert"> 
-        
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            
-            <span aria-hidden="true">&times;</span>
-        
-        </button>
-    
-        <h2 class="align-self-center mx-auto">Our offices have moved, please click below for more info</h2>
-        
-        <br/>
-        
-        <button type="button" class="btn btn-primary btn-lg mx-auto">
-            
-            <span>Read Memo</span></button>
-        
-        <br/>
-        <br/>
-        
-        <button type="button" class="btn btn-outline-dark btn-lg mx-auto" data-dismiss="alert" aria-label="Close">Close</button>
-    
-        <br/>
-        
-    </div><!-- ./modal -->
-        
-    <!-- First break -->
-        
 
-    <div id="first_break">
-    
-        <div class="text-center"  id="first_banner">
-  <h1 class="display-4">For Our Employees</h1>
-  <p class="lead">Please see our providers page for forms and information</p>
-  <hr class="my-4">
-  </p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Providers Page</a>
-  </p>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Providers</a>
+</li>      
+<li class="nav-item">
+<a class="nav-link" href="#">Services</a>
+</li>      
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>      
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>      
+</ul>
 </div>
-        
-    </div>
-    
-        <!-- Second break -->
-        
-<br/>
-    <br/>
- <div id="second_break" class="text-center greyborder">
-  <h1 class="display-4">Our Services</h1>
-  <p class="lead">All of our services and policies can be found in the parent provider manual</p>
-  <hr class="my-4">
-  </p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Services</a>
-  </p>
+</nav>
+<!-- End Navbar -->
 </div>
-    
-           <!-- Third break -->
-        
+<!-- Begin jumbotron -->
+<div id="main_banner">
+<h1>Full Circle Support</h1>
+<h2>Slogan Goes Here Probably</h2>
+
+</div>
+
+<!-- Begin Alert -->
 <br/>
-    <br/>
- <div id="third_break" class="text-center greyborder">
-  <h1 class="display-4 text-white">About Us</h1>
-  <p class="lead text-white">Find out more about who we are</p>
-  <hr class="my-4" id="thirdhr">
-  </p>
-  <div id="pic_container">
-  
-    <img src="img/sunset.jpg" class="rounded float-left img-thumbnail smaller">
-    <img src="img/road.jpg" class="rounded float-center img-thumbnail smaller">
-    <img src="img/child.jpg" class="rounded float-right img-thumbnail smaller">
-  
-  
-  </div>
-  
-        
-    </div>
-    
-    </body>
+<div class="banner" id="alert_banner">
+<h1 class="align-self-center mx-auto">Our offices have moved</h1>
+<p class="lead">Please click below for more info</p>
+<hr>
+<a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+</div>
+<div class="container">
 
+<img src="https://loremflickr.com/320/240" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=1" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=2" />
 
+</div>
+<!-- Employee Section -->
+<div id="employee_break" class="banner secondary">
+<h1 class="display-4">For Our Employees</h1>
+<p class="lead">Please see our providers page for forms and information</p> 
+<hr>
+<a class="btn btn-primary btn-lg" href="#" role="button">Providers Page</a>
+</div>
+<!-- image break #2 -->
+<div class="container">
 
+<img src="https://loremflickr.com/320/240?random=3" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=4" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=5" />
+</div>
+<!-- Services Section -->
+<div class="banner primary text-white">
+<h1 class="display-4">Our Services</h1>
+<p class="lead">All of our services and policies can be found in the Parent - Provider Manual</p>
+<hr>
+<a class="btn btn-primary btn-lg" href="#" role="button">Services Section</a>
+</div>
+<!-- image break #2 -->
+<div class="container">
 
+<img src="https://loremflickr.com/320/240?random=6" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=7" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=8" />
 
+</div>
 
+<!-- Services Section -->
+<div class="banner gray">
+<h1 class="display-4">About Us</h1>
+<p class="lead">Find out more about who we are</p>
+<hr>
+<a class="btn btn-primary btn-lg" href="#" role="button">About Section</a>
+</div>
+<br/>
 
+<!-- image break #4 -->
+<div class="container">
 
+<img src="https://loremflickr.com/320/240?random=9" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=10" />
+<img class=" d-none d-sm-inline" src="https://loremflickr.com/320/240?random=11" />
+
+</div>
+
+<!-- Contact Section -->
+<div class="banner secondary    ">
+<h1 class="display-4">Contact Us</h1>
+<p class="lead">Click below for our contact information</p>
+<hr>
+<a class="btn btn-primary btn-lg" href="#" role="button">Contact Us</a>
+</div>
+<br/>
+<!-- Footer Section-->
+<div id="bottom" class="primary text-white"> 
+<br/>
+<div class="row">
+<div id="bottom_title" class="col">
+<h1>Full Circle Support, Inc</h1>
+</div>
+<div class="col" id="right_col">
+<ul>
+<li><h1>Links</h1></li>
+<li><a href="#">Home</a></li>
+<li><a href="#">Providers</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="copy">
+2018 Full Circle Support, Inc.
+</div>
+</div>
+</body>
 </html>
