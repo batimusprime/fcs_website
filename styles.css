@@ -1,14 +1,14 @@
 ul{
     list-style-type: none;
 }
-#bar{
+.white_text{
+    color: white;
 
-color: white;
 }
+body{
+    max-width: 100%;
 
-#title_text{
 
-color: white;
 }
 
 #main_banner{
@@ -33,13 +33,17 @@ text-align: center;
     
 
 }
+#bottom_hr{
+    border-bottom: 3px solid gray;
 
-.container{
+}
+
+.wrapper{
     text-align: center;
 
 }
 
-.container > img{
+.wrapper > img{
     
     padding: 1rem;
     
