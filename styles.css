@@ -1,21 +1,19 @@
 /*-- DOM Styles -- */
 
-ul{
-    
-    list-style-type: none;
-
-}
 
 body{
     
     max-width: 100%;
-    
-
-
     font-family: 'Merriweather', serif;
 
 
     
+}
+
+ul{
+    
+    list-style-type: none;
+
 }
 
 h1{
@@ -28,11 +26,13 @@ h1{
 }
 
 /*-- Universal Styles --*/
+
 .white_text{
 
     color: white!important;
 
 }
+
 
 
 /*-- Index Specific Styles --*/
@@ -75,8 +75,8 @@ h1{
 
 }
 
-/*-- Button generated --*/
-
+/*-- Excessively styled buttons --*/
+/*http://css3buttongenerator.com/*/
 .custom_btn{
 
   background: #547a94;
