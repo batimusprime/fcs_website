@@ -16,6 +16,8 @@ ul{
 
 }
 
+
+
 h1{
 
     
@@ -25,7 +27,14 @@ h1{
 
 }
 
+
+
 /*-- Universal Styles --*/
+
+.text-center{
+    text-align: center;
+
+}
 
 .white_text{
 
@@ -34,7 +43,12 @@ h1{
 }
 
 
+.nav-link{
 
+
+    font-size: 1.5rem;
+
+}
 /*-- Index Specific Styles --*/
 
 #main_banner{
@@ -153,5 +167,61 @@ h1{
 .gray{
 
     background-color: #E8E8E8;
+
+}
+
+
+/* -- Memo Page --*/
+
+.icon{
+
+    max-width: 2rem;
+
+}
+
+
+
+
+/* -- Providers Page --*/
+    .one{
+
+        height: 8rem;
+        padding-top: .2rem;
+        border: 2px solid black;
+        border-radius: 2rem;
+        margin: 2rem;
+        background: rgba(0,0,155,.1);
+        color: black;
+    }
+    
+    .one:hover{
+    
+        color: blue;
+        font-weight: bold;
+        text-decoration: none;
+        background: rgba(0,0,155,.2);
+    }
+    .two{
+        height: 2rem;
+        text-align: center;
+
+    
+    }
+/* -- services page -- */
+
+#abc{
+
+    border: 2px solid gray;
+    border-radius: .1rem;
+    vertical-align:middle;
+
+}
+
+/*-- About Page --*/
+
+.a_img{
+
+    max-width: 20%;
+    padding: 1rem;
 
 }

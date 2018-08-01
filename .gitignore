@@ -1,3 +1,10 @@
 dev
 dev/*
 dev/
+img/
+img/*
+img
+/img
+doc/
+/doc
+doc/*
