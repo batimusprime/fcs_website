@@ -1,14 +1,6 @@
 /*-- DOM Styles -- */
 
 
-body{
-    
-    max-width: 100%;
-    font-family: 'Merriweather', serif;
-
-
-    
-}
 
 ul{
     
@@ -32,6 +24,7 @@ h1{
 /*-- Universal Styles --*/
 
 .text-center{
+
     text-align: center;
 
 }
@@ -47,6 +40,12 @@ h1{
 
 
     font-size: 1.5rem;
+
+}
+
+img{
+    max-width: 320px;
+    max-height: 240px;
 
 }
 /*-- Index Specific Styles --*/
@@ -223,5 +222,31 @@ h1{
 
     max-width: 20%;
     padding: 1rem;
+
+}
+
+/* -- Services Page --*/
+#document{
+
+    padding: 2rem;
+
+}
+
+/* -- Trying to add gutters --*/
+@media (min-width: 1200px) {
+
+    html{
+
+        background-color: rgba(169, 183, 192, .5);
+
+    }
+    
+    body{
+        
+        margin: 0 auto;
+        max-width: 90%;
+        font-family: 'Merriweather', serif;
+    }
+
 
 }
